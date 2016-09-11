@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Driver Instructor</string>
+    <string name="search_title">Search</string>
+    <string name="notify">Notifications</string>
+    <string name="navigation_open">Open</string>
+    <string name="navigation_close">Close</string>
+</resources>

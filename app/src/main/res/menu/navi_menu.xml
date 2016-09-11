@@ -1,13 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
-        android:title="@string/notify"
+        android:id="@+id/item_ts"
+        android:title="Vehicle"
         android:orderInCategory="1"
-        android:icon="@mipmap/ic_event_note_white_24dp"
+        android:icon="@mipmap/ic_drive_eta_white_24dp"
        />
     <item
-        android:title="@string/search_title"
-        android:orderInCategory="1"
-        android:icon="@mipmap/ic_search_white_24dp"
+        android:id="@+id/item_about"
+        android:title="About Instructor"
+        android:orderInCategory="2"
+        android:icon="@mipmap/ic_info_outline_white_24dp"
+        />
+    <item
+        android:id="@+id/item_reviews"
+        android:title="Reviews"
+        android:orderInCategory="3"
+        android:icon="@mipmap/ic_star_rate_white_18dp"
         />
 </menu>
